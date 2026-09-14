@@ -1,7 +1,7 @@
 name: get stock price
 
 on:
-	  schedule:
+schedule:
 	    - cron: "*/5 1-5 * *1-5"
 
 	jobs:
