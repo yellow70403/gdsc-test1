@@ -34,3 +34,10 @@ jobs:
 
       - name: Run Python script
         run: python test1.py
+         - name: Check files
+        run: |
+          pwd
+          ls -la
+
+      - name: Run Python script
+        run: python test1.py
